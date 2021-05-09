@@ -1,0 +1,120 @@
+==========================================
+SLURM_JOB_ID = 374380
+SLURM_NODELIST = gnode48
+SLURM_JOB_GPUS = 1,2,3
+==========================================
+cuda:0
+(75000, 41)
+attributes: 40
+noImages: 75000
+epochs: 25
+device: cuda:0
+=========================================================================================
+=========================================================================================
+attributes considered: 40
+dataloaders loaded
+==========
+Epoch: 0
+train:
+loss = 1.1053     accuracy = 0.8000
+==========
+Epoch: 1
+train:
+loss = 1.0163     accuracy = 0.8035
+==========
+Epoch: 2
+train:
+loss = 1.0161     accuracy = 0.8032
+==========
+Epoch: 3
+train:
+loss = 1.0314     accuracy = 0.8028
+==========
+Epoch: 4
+train:
+loss = 1.0832     accuracy = 0.8025
+==========
+Epoch: 5
+train:
+loss = 1.0843     accuracy = 0.8023
+==========
+Epoch: 6
+train:
+loss = 1.0791     accuracy = 0.8027
+==========
+Epoch: 7
+train:
+loss = 1.0882     accuracy = 0.8021
+==========
+Epoch: 8
+train:
+loss = 1.0834     accuracy = 0.8019
+==========
+Epoch: 9
+train:
+loss = 1.0956     accuracy = 0.8020
+==========
+Epoch: 10
+train:
+loss = 1.0896     accuracy = 0.8022
+==========
+Epoch: 11
+train:
+loss = 1.0857     accuracy = 0.8017
+==========
+Epoch: 12
+train:
+loss = 1.0920     accuracy = 0.8020
+==========
+Epoch: 13
+train:
+loss = 1.0928     accuracy = 0.8019
+==========
+Epoch: 14
+train:
+loss = 1.0887     accuracy = 0.8018
+==========
+Epoch: 15
+train:
+loss = 1.0843     accuracy = 0.8016
+==========
+Epoch: 16
+train:
+loss = 1.0873     accuracy = 0.8017
+==========
+Epoch: 17
+train:
+loss = 1.0919     accuracy = 0.8019
+==========
+Epoch: 18
+train:
+loss = 1.0993     accuracy = 0.8015
+==========
+Epoch: 19
+train:
+loss = 1.0890     accuracy = 0.8022
+==========
+Epoch: 20
+train:
+loss = 1.0930     accuracy = 0.8022
+==========
+Epoch: 21
+train:
+loss = 1.0914     accuracy = 0.8020
+==========
+Epoch: 22
+train:
+loss = 1.0884     accuracy = 0.8020
+==========
+Epoch: 23
+train:
+loss = 1.0842     accuracy = 0.8021
+==========
+Epoch: 24
+train:
+loss = 1.0935     accuracy = 0.8021
+testing:
+loss: 1.0168     accuracy: 0.8030
+saved model at: ./attr_net_75k_40.pth
+/var/spool/slurmd/job374380/slurm_script: line 14: /home2/sajal.khandelwal: Is a directory
+/var/spool/slurmd/job374380/slurm_script: line 15: /home2/sajal.khandelwal: Is a directory
